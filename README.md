@@ -1,90 +1,96 @@
-<!-- Header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A5F,100:C97D4B&height=200&section=header&text=Alejandro%20Mendoza%20Hermida&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=AI%20Applied%20to%20Business%20%E2%80%A2%20Builder%20%E2%80%A2%20Paris&descAlignY=58&descSize=16" alt="header" />
-</p>
+<a href="https://alejandro-mendoza.vercel.app/">
+  <img src="assets/header.svg" width="100%" alt="Alejandro Mendoza — Automatisation & IA appliquée au business" />
+</a>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=900&color=C97D4B&center=true&vCenter=true&width=600&lines=I+build+AI+agents+that+solve+real+problems;Automation+for+small+businesses;Shipping+Kibo%2C+a+mental-health+app%2C+in+public;Hola+%E2%80%A2+Bonjour+%E2%80%A2+Hello+%F0%9F%91%8B" alt="Typing SVG" />
-  </a>
+  <a href="#whoami"><img src="https://img.shields.io/badge/whoami.py-16222F?style=for-the-badge&logo=python&logoColor=E3B98A" alt="whoami" /></a>
+  <a href="#builds"><img src="https://img.shields.io/badge/builds.sql-16222F?style=for-the-badge&logo=postgresql&logoColor=D2875A" alt="builds" /></a>
+  <a href="#journey"><img src="https://img.shields.io/badge/journey.yaml-16222F?style=for-the-badge&logo=yaml&logoColor=8FC1A9" alt="journey" /></a>
+  <a href="#stack"><img src="https://img.shields.io/badge/stack.toml-16222F?style=for-the-badge&logo=toml&logoColor=D99A9A" alt="stack" /></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/contact.sh-16222F?style=for-the-badge&logo=gnubash&logoColor=7CC4E4" alt="contact" /></a>
 </p>
 
-<p align="center">
-  <a href="https://alejandro-mendoza.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/alejandro-mendoza-hermida-"><img src="https://img.shields.io/badge/LinkedIn-1E3A5F?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Paris%2C%20France-C97D4B?style=for-the-badge&logo=googlemaps&logoColor=white" />
-</p>
+<img src="assets/highlights.svg" width="100%" alt="5 projets livrés · 3+ ans de terrain retail · -85% de temps avec Content Engine · taux de réponse x2 · 1er prix étudiant Erasmus" />
 
----
+<a name="whoami"></a>
 
-### 🧭 About me
+## 🏔️ whoami.py
 
-```yaml
-name:        Alejandro Mendoza Hermida
-origin:      🇨🇴 Colombia  →  🇫🇷 Paris
-studying:    MSc "AI Applied to Business" — AI Architect track @ Eugenia School
-background:  Licence AEI (International Trade & Administration) @ UPEC + Erasmus 🇪🇸
-languages:   [Español, Français, English]
-focus:       [AI agents, automation, SaaS, product design]
-looking_for: Alternance — Data & AI (4 days company / 1 day school)
+```python
+class Alejandro:
+    role       = "Automatisation & IA appliquée au business"
+    school     = "MSc IA appliquée au business @ Eugenia School (2026 – 2028)"
+    background = ["Licence AEI @ UPEC", "Erasmus @ UCLM — 1er prix", "3+ ans de terrain retail"]
+    building   = ["Automa — agence IA pour PME", "Immo Pilot — agents IA multi-tenant", "Ali — santé mentale"]
+    languages  = {"Español": "C2", "Français": "C2", "English": "B2"}
+    looking_for = "Alternance 2 ans · Data & IA · Île-de-France · 4j entreprise / 1j école"
+
+    def why_me(self):
+        return "J'ai été en rayon avec des outils décidés ailleurs. Je pars du terrain avant d'automatiser."
 ```
 
-I come from business, not from a CS degree — so I build backwards from the problem: **what does a small business actually lose time or money on, and can an agent fix it?** I care about understanding *how* and *why* things work, not just stacking tools.
+> La plupart des projets d'automatisation n'échouent pas pour des raisons techniques : ils échouent parce que personne n'a demandé à l'équipe concernée comment elle travaille vraiment.
 
----
+<a name="builds"></a>
 
-### 🚀 What I'm building
+## 🧗 builds.sql
+
+<img src="assets/builds.svg" width="100%" alt="SELECT title, impact FROM builds" />
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h4>🏔️ Kibo</h4>
-      <sub>Mental-health app · built in public</sub>
-      <p>A climbing-themed journey through emotional-education modules, with an AI guide, progress tracking and zero social comparison. Content validated by psychologists.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>⚙️ Automa</h4>
-      <sub>AI automation for SMEs</sub>
-      <p>Chatbots, call handling, reservations, stock & sales analysis for businesses under 10 employees — bakeries, butchers, restaurants.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🏠 Immo Pilot</h4>
-      <sub>Multi-tenant AI SaaS</sub>
-      <p>Six specialized agents (prospection, estimation, listings, qualification, visits, follow-up) for French real-estate agencies. GDPR-first.</p>
-      <sub><code>Next.js</code> <code>FastAPI</code> <code>Supabase</code></sub>
-    </td>
+    <td width="50%"><a href="https://alejandro-mendoza.vercel.app/"><img src="assets/build-01.svg" width="100%" alt="Content Engine — pipeline IA de contenu B2B" /></a></td>
+    <td width="50%"><a href="https://alejandro-mendoza.vercel.app/"><img src="assets/build-02.svg" width="100%" alt="Automa — agence IA pour PME" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://alejandro-mendoza.vercel.app/"><img src="assets/build-03.svg" width="100%" alt="Immo Pilot — agents IA pour agences immobilières" /></a></td>
+    <td width="50%"><a href="https://github.com/alejomendozahermida-png/Ali-app"><img src="assets/build-04.svg" width="100%" alt="Ali — santé mentale guidée par l'IA" /></a></td>
   </tr>
 </table>
 
----
+<details>
+  <summary><b>🔓 Autres projets</b></summary>
+  <br/>
 
-### 🛠️ Stack & tools
+| Projet | Ce que ça fait | Stack |
+|---|---|---|
+| 🧭 [Wander](https://github.com/alejomendozahermida-png/WANDER) · [API](https://github.com/alejomendozahermida-png/wander-app) | App de voyage inversée pour étudiants : dates + budget + humeur → une recommandation, pas une liste infinie | TypeScript · Python |
+| 💀 Adicción Tequila | Direction artistique de deux campagnes (Día de Muertos, Collection Été), du prototype en argile à l'identité finale | Branding · DA |
+
+</details>
+
+<a name="journey"></a>
+
+## 🗺️ journey.yaml
+
+<img src="assets/journey.svg" width="100%" alt="Parcours : Automa, Castorama, Décathlon, Groupe Enervy, Eugenia School, Erasmus UCLM, UPEC" />
+
+<a name="stack"></a>
+
+## ⚡ stack.toml
+
+<img src="assets/stack.svg" width="100%" alt="Stack : n8n, Claude API, prompt engineering, agents IA, Python, SQL, Figma, Next.js, FastAPI, Supabase…" />
+
+## 📊 stats.py
+
+<img src="https://raw.githubusercontent.com/alejomendozahermida-png/alejomendozahermida-png/output/stats.svg" width="100%" alt="Statistiques GitHub (mises à jour chaque jour)" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alejomendozahermida-png/alejomendozahermida-png/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alejomendozahermida-png/alejomendozahermida-png/output/snake-light.svg" />
+  <img width="100%" alt="Le serpent grimpe sur le graphe de contributions" src="https://raw.githubusercontent.com/alejomendozahermida-png/alejomendozahermida-png/output/snake-dark.svg" />
+</picture>
+
+<a name="contact"></a>
+
+## ✉️ contact.sh
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,nextjs,react,tailwind,fastapi,supabase,postgres,vercel,git,figma&perline=6" alt="skills" />
+  <a href="https://alejandro-mendoza.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-alejandro--mendoza-7CC4E4?style=for-the-badge&logo=vercel&logoColor=white&labelColor=16222F" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/alejandro-mendoza-hermida-"><img src="https://img.shields.io/badge/LinkedIn-alejandro--mendoza--hermida-5B9BD5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=16222F" alt="LinkedIn" /></a>
+  <a href="mailto:alejomendozahermida@gmail.com"><img src="https://img.shields.io/badge/Email-alejomendozahermida@gmail.com-D2875A?style=for-the-badge&logo=gmail&logoColor=white&labelColor=16222F" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude%20Code-C97D4B?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Multi--agent%20systems-1E3A5F?style=flat-square" />
-  <img src="https://img.shields.io/badge/n8n%20%2F%20automation-0F172A?style=flat-square&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prompt%20engineering-1E3A5F?style=flat-square" />
-  <img src="https://img.shields.io/badge/Product%20%26%20UX-0F172A?style=flat-square" />
+  <code>$ echo "¡Hablemos! · Parlons-en · Let's talk"</code>
 </p>
-
----
-
-### 📈 Currently
-
-- 🎓 Starting my MSc in AI applied to business
-- 🔍 Looking for a **Data & AI alternance** in Paris — let's talk
-- 📚 Leveling up in maths & logic, finance and negotiation
-- 🤝 Open to collaborating on AI products that solve *boring, real* problems
-
----
-
-<p align="center">
-  <i>"Tu camino, escalemos."</i>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C97D4B,50:1E3A5F,100:0F172A&height=100&section=footer" width="100%" />
